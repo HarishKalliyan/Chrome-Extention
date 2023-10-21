@@ -8,22 +8,38 @@ body {
 input {
     width: 100%;
     padding: 10px;
+    border-radius: 15px;
     box-sizing: border-box;
-    border: 1px solid #5f9341;
+    border: 1px solid #391fff;
     margin-bottom: 4px;
 }
 
 button {
-    background: #5f9341;
+    background: #02cca0;
     color: white;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
     padding: 10px 20px;
-    border: 1px solid #5f9341;
+    border-radius: 6px;
+    border: 3px solid #02cca0;
     font-weight: bold;
 }
 
+button:hover{
+    background-color:#46f4ce;
+}
+
 #delete-btn {
-    background: white;
-    color: #5f9341;
+    background:#263848;
+    color: aliceblue;
+    border: 3px solid #263848;
+    border-radius: 6px;
+}
+
+#delete-btn:hover{
+    background: #305375;
+    color: aliceblue;
 }
 
 ul {
@@ -37,7 +53,7 @@ li {
 }
 
 a {
-    color: #5f9341;
+    color: #1100c7;
 }
 
 
